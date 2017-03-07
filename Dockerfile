@@ -2,6 +2,7 @@ FROM ubuntu:latest
 
 # Update and Install Packages
 RUN apt-get update -y && apt-get install --no-install-recommends -y \
+    git                 \
     make                \
     texlive             \
     texlive-latex-extra \
